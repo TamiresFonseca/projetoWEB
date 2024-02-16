@@ -1,0 +1,124 @@
+@import url(<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.container h1{
+  color: white; font-size 12px ;
+  font-family: "Montserrat", sans-serif;
+  width: 50%;
+  
+}
+
+.barra_pesquisa{
+  border-radius: 10px;
+  background-color: white;
+  text-decoration: none;
+}
+
+.lupa{  
+  height: 15x;
+  margin-bottom: 0px;
+}
+
+.container {
+  display: flex;
+  background-color: #04B2D9;
+  width: 100%;
+  height: 35px;
+  padding: 10px;
+  margin-top: 0px;
+  
+  }
+
+
+
+.banner{
+    display: flex;
+    justify-content: center;
+    background-color: #F28705;
+    width: 100%;
+    height: 200px;
+    
+  }
+  
+
+  body{
+    background-color: #F2E8DF;
+    font-family: "Montserrat", sans-serif;
+    
+    }
+
+  .redes__sociais, .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rede__social, .links a, footer h3 {
+    padding-left: 20px;
+  }
+
+  .produto img{
+    border-radius: 50px;
+    padding-bottom: 25px;   
+  }
+
+  .produto h3{
+    padding-top: 25px;
+    text-align: center;
+  }
+
+  .produtos{
+    margin: 26px;
+    padding-left: 10px;
+    
+  }
+
+  .preco__produto{   
+    display: flex;
+    justify-content: center;    
+    padding-top: 15px;
+  }
+
+  .produtos__botão{
+    display: flex;
+    justify-content: center;      
+    color:black;
+    background-color: #04B2D9;    
+    border-radius: 50px;
+    margin: 40px 820px;
+    padding: 15px 20px;
+  }
+
+  .produtos__texto{
+    margin-left: 20px;
+    padding-bottom: 20px;
+    
+  }
+
+  .produtos__secao {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+ 
+  footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #04B2D9;
+    padding: 0px;
+   }
+
+   footer h1, footer h3 {
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+   }
